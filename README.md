@@ -32,43 +32,6 @@ SUPERVISION is an AI-powered wearable device designed to assist visually impaire
 4. **Voice Feedback:** Detected objects and obstacle distances are converted to speech using gTTS.
 5. **Audio Output:** The processed audio is played through wired earphones.
 
-## Installation & Setup
-### 1. Clone the Repository
-```bash
-   git clone https://github.com/your-username/SUPERVISION-AI-Smart-Glasses.git
-   cd SUPERVISION-AI-Smart-Glasses
-```
-
-### 2. Install Dependencies
-```bash
-   pip install -r requirements.txt
-```
-
-### 3. Run the Application
-```bash
-   python main.py
-```
-
-## Configuration
-### Configurable Parameters (config.yaml)
-```yaml
-camera:
-  resolution: [640, 480]
-  frame_rate: 30
-
-object_detection:
-  model: "mobilenet_v2"
-  confidence_threshold: 0.5
-
-ultrasonic_sensor:
-  trigger_pin: 23
-  echo_pin: 24
-  detection_range: 100  # in cm
-
-audio:
-  tts_language: "en"
-  volume: 80  # in percentage
-```
 
 ## How It Works
 1. The camera continuously captures frames.
