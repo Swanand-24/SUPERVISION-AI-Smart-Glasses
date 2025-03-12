@@ -1,5 +1,5 @@
 # SUPERVISION - AI Smart Glasses for Visually Impaired People
-
+![image alt](https://github.com/Swanand-24/SUPERVISION-AI-Smart-Glasses/blob/main/images/supervision_prototype.jpg?raw=true)
 ## Overview
 SUPERVISION is an AI-powered wearable device designed to assist visually impaired individuals by providing real-time object detection, obstacle avoidance, and audio feedback. The system leverages **Raspberry Pi 4B**, **Machine Learning**, **Google Text-to-Speech (gTTS)**, and **Ultrasonic Sensors** to process visual and spatial data and convert it into meaningful voice-based guidance.
 
